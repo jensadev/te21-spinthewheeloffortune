@@ -14,20 +14,10 @@ body {
   font-size: 1.2rem;
 }
 
-
-.spin-it {
-  animation: spin-animation 1s linear infinite;
+.hidden {
+  display: none !important;
 }
 
-.spin-stop {
-  animation-play-state: paused;
-}
-
-@keyframes spin-animation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
-  }
+#wheel {
+  max-width: 100%;
 }
